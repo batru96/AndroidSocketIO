@@ -8,7 +8,7 @@
     tools:context="com.example.gietb.android_tonghopsocketio.NoiDungActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
@@ -16,16 +16,14 @@
             android:id="@+id/btnBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="Back"
             android:textAllCaps="false" />
 
         <EditText
             android:id="@+id/edtRoom"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:ems="10"
             android:hint="Room's name"
             android:inputType="textPersonName" />
 
@@ -33,7 +31,6 @@
             android:id="@+id/btnCreateRoom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="Create"
             android:textAllCaps="false" />
     </LinearLayout>
